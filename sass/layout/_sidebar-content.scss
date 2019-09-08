@@ -1,0 +1,41 @@
+.site-header {
+  float: left;
+  margin: 0 0 0 $size__site-sidebar;
+  width: $size__site-main - $size__site-sidebar;
+  height: $size__header;
+}
+
+.content-area {
+  float: right;
+  margin: 0 0 0 (-$size__site-sidebar);
+  width: $size__site-main;
+}
+
+.site-main {
+  margin: 0 0 0 $size__site-sidebar;
+  overflow-y: scroll;
+  height: 95vh - $size__header; // TODO: Figure out how to do this well
+  // padding-top: 1%;
+  padding-right: 2%;
+}
+
+.site-content .widget-area {
+  float: left;
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  width: $size__site-sidebar;
+  box-sizing: border-box;
+  padding-top: 1%;
+  padding-right: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.site-footer {
+  clear: both;
+  width: $size__site-main;
+}
+
+@import "no-sidebar";
