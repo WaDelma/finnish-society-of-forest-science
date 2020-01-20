@@ -14,10 +14,14 @@
 
 .site-main {
   margin: 0 0 0 $size__site-sidebar;
-  width: 50%;
+  max-width: 1100px;
   height: 95vh - $size__header; // TODO: Figure out how to do this well
   // padding-top: 1%;
   padding-right: 2%;
+}
+
+.site-content {
+  overflow: none;
 }
 
 .site-content .widget-area {

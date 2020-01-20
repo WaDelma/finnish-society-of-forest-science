@@ -55,3 +55,47 @@
   text-decoration-color: #ededed;
   background: #ffffff;
 }
+ul.menu li.menu-item-has-children > a:after {
+  content: "";
+  position: absolute;
+  top: 45%;
+  right: 3px;
+  width: 0;
+  height: 0;
+  border-top: 4px solid rgba(0, 0, 0, 0.5);
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+ul.menu li.menu-item-has-children:hover > a:after {
+  content: "";
+  position: absolute;
+  top: 45%;
+  right: 3px;
+  width: 0;
+  height: 0;
+  border-top: 4px solid rgba(0, 0, 0, 0.5);
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+ul.menu li li.menu-item-has-children > a:after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 1px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid rgba(0, 0, 0, 0.5);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+ul.menu li li.menu-item-has-children:hover > a:after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 1px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid rgba(0, 0, 0, 0.5);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
