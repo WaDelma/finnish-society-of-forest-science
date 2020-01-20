@@ -51,6 +51,11 @@
 				'menu_id'        => 'primary-menu',
 			) );
 			?>
+			<?php if ( is_active_sidebar( 'header-1' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'header-1' ); ?>
+				</div>
+			<?php endif; ?>
 		</nav><!--#site-navigation-->
 	</header><!-- #masthead -->
 

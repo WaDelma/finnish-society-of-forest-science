@@ -6,3 +6,8 @@
 		max-width: 100%;
 	}
 }
+
+.widget_polylang ul {
+	display: flex;
+	flex-direction: column;
+}
