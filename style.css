@@ -337,16 +337,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 2.4vmin;
+  font-weight: bold;
 }
 h2 {
-  font-size: 1.85vmin;
-  font-weight: bold;
+  font-size: 2.4vmin;
 }
 h3 {
   font-size: 1.85vmin;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.85vmin;
 }
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 0em;
 }
 dfn, cite, em, i {
   font-style: italic;
@@ -407,7 +411,7 @@ hr {
   margin-bottom: 1.5em;
 }
 ul, ol {
-  margin: 0 0 1.5em 3em;
+  margin: 0 0 1em 0.75em;
 }
 ul {
   list-style: disc;
@@ -659,10 +663,11 @@ a:hover, a:active {
   float: right;
   margin: 0 0 0 -20%;
   width: 100%;
+  overflow-y: scroll;
 }
 .site-main {
   margin: 0 0 0 20%;
-  overflow-y: scroll;
+  width: 50%;
   height: 85vh;
   padding-right: 2%;
 }
@@ -806,24 +811,25 @@ embed, iframe, object {
 .gallery-caption {
   display: block;
 }
-.shailan-dropdown-menu {
+.main-navigation {
   background: #fff;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
-.shailan-dropdown-menu ul.dropdown li a {
+.main-navigation div ul.menu li a {
   padding: 5px 15px;
   font-size: 2.4vmin;
   color: #222;
 }
-.shailan-dropdown-menu ul.dropdown li a:hover {
+.main-navigation div ul.menu li a:hover {
   background-color: #fff;
   color: #777;
 }
-.shailan-dropdown-menu ul.dropdown li ul {
+.main-navigation div ul.menu li ul {
   width: auto;
   background-color: #fff;
   border-radius: 4px;
 }
-.shailan-dropdown-menu ul.dropdown li.current_page_item > a, .shailan-dropdown-menu ul.dropdown li.current-cat > a, .shailan-dropdown-menu ul.dropdown li.current-cat > a:hover, .shailan-dropdown-menu ul.dropdown li.current_page_item > a:hover {
+.main-navigation div ul.menu li.current_page_item > a, .main-navigation div ul.menu li.current-cat > a, .main-navigation div ul.menu li.current-cat > a:hover, .main-navigation div ul.menu li.current_page_item > a:hover {
   color: #555;
   text-decoration: underline;
   text-decoration-color: #ededed;

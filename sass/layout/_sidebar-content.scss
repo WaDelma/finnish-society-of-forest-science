@@ -9,11 +9,12 @@
   float: right;
   margin: 0 0 0 (-$size__site-sidebar);
   width: $size__site-main;
+  overflow-y: scroll;
 }
 
 .site-main {
   margin: 0 0 0 $size__site-sidebar;
-  overflow-y: scroll;
+  width: 50%;
   height: 95vh - $size__header; // TODO: Figure out how to do this well
   // padding-top: 1%;
   padding-right: 2%;
