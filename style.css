@@ -386,9 +386,13 @@ h4 {
   font-weight: normal; }
 
 p {
-  margin-bottom: 0em; }
+  margin-bottom: 0em;
+  margin-top: 0em; }
 
-dfn, cite, em, i {
+dfn,
+cite,
+em,
+i {
   font-style: italic; }
 
 blockquote {
@@ -408,16 +412,21 @@ pre {
   overflow: auto;
   padding: 1.6em; }
 
-code, kbd, tt, var {
+code,
+kbd,
+tt,
+var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem; }
 
-abbr, acronym {
+abbr,
+acronym {
   border-bottom: 1px dotted #666;
   cursor: help; }
 
-mark, ins {
+mark,
+ins {
   background: #fff9c0;
   text-decoration: none; }
 
@@ -599,8 +608,7 @@ a {
       .main-navigation ul ul ul {
         left: -999em;
         top: 0; }
-      .main-navigation ul ul li:hover > ul,
-      .main-navigation ul ul li.focus > ul {
+      .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
         left: 100%; }
     .main-navigation ul li:hover > ul,
     .main-navigation ul li.focus > ul {
@@ -620,24 +628,18 @@ a {
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none; }
+
   .main-navigation ul {
     display: block; } }
-
-.site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
-.post-navigation {
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden; }
-
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
   float: left;
   width: 50%; }
-
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
   float: right;
   text-align: right;
   width: 50%; }
@@ -790,7 +792,6 @@ a {
   float: none;
   margin-left: auto;
   margin-right: auto; }
-
 .no-sidebar .site-main {
   margin-right: 0; }
 
@@ -976,3 +977,5 @@ ul.menu li li.menu-item-has-children:hover > a:after {
   border-left: 4px solid rgba(0, 0, 0, 0.5);
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent; }
+
+/*# sourceMappingURL=style.css.map */
