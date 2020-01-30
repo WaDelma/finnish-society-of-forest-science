@@ -9,25 +9,25 @@ h6 {
 }
 
 h1 {
-  // @include font-size(1.5);
-  font-size: 2.7vmin;
+  @include font-size(1.5);
+  // font-size: 2.7vmin;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 2.4vmin;
+  // font-size: 2.4vmin;
+  @include font-size(1.5);
   font-weight: normal;
-  // @include font-size(1.167);
 }
 
 h3 {
-  font-size: 1.85vmin;
+  // font-size: 1.85vmin;
+  @include font-size(1.2);
   font-weight: bold;
-  //@include font-size(1.167);
 }
 
 h4 {
-  font-size: 1.85vmin;
+  // font-size: 1.85vmin;
+  @include font-size(1.2);
   font-weight: normal;
-  //@include font-size(1.167);
 }

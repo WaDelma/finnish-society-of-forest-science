@@ -33,8 +33,8 @@
 
 .main-navigation div ul.menu li a {
   padding: 5px 15px;
-  // @include font-size(1.5);
-  font-size: 2.4vmin;
+  @include font-size(1.5);
+  // font-size: 2.4vmin;
   color: #222222;
 }
 .main-navigation div ul.menu li a:hover {
