@@ -31,6 +31,10 @@
   font-family: $font__header;
 }
 
+.main-navigation li {
+  background: #ffffff;
+}
+
 .main-navigation div ul.menu li a {
   padding: 5px 15px;
   @include font-size(1.5);
@@ -54,6 +58,10 @@
   text-decoration: underline;
   text-decoration-color: #ededed;
   background: #ffffff;
+}
+#primary-menu {
+  z-index: 999;
+  position: absolute;
 }
 ul.menu li.menu-item-has-children > a:after {
   content: "";

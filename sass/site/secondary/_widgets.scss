@@ -1,17 +1,19 @@
 .widget {
-	margin: 0 0 1%;
+  margin: 0 0 1%;
 
-	/* Make sure select elements fit in widgets. */
-	select {
-		max-width: 100%;
-	}
+  /* Make sure select elements fit in widgets. */
+  select {
+    max-width: 100%;
+  }
 }
 
 .widget_polylang ul {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  background: white;
 }
 
 .lang-item {
-	margin-left: 16px;
+  margin-left: 16px;
 }
