@@ -35,12 +35,20 @@
   background: #ffffff;
 }
 
-.main-navigation div ul.menu li a {
-  padding: 5px 15px;
-  @include font-size(1.5);
-  // font-size: 2.4vmin;
-  color: #222222;
+.main-navigation div ul.menu li {
+  a {
+    padding: 5px 15px;
+    @include font-size(1.5);
+    // font-size: 2.4vmin;
+    color: #222222;
+  }
+  ul.sub-menu li a {
+    @include font-size(1.2);
+  }
 }
+
+
+
 .main-navigation div ul.menu li a:hover {
   background-color: #ffffff;
   color: #777777;
